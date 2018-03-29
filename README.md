@@ -2,7 +2,8 @@
 
 ## Contributors
 
-Corentin GIRAUD
+Corentin GIRAUD  
+Paul-Emmanuel SOTIR
 // TODO Add you name
 
 ## Usage
