@@ -12,7 +12,7 @@ Paul-Emmanuel SOTIR
 
 You need to install the following software:
 
-- [Docker Community Edition (CE)](https://docs.docker.com/install/)
+- [Vagrant](https://docs.docker.com/install/)
 - [Git](https://git-scm.com/)
 
 You also need to clone our repo using this following command:

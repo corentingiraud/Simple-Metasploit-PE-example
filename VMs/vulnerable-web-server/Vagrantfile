@@ -1,0 +1,18 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "janihur/ubuntu-1604-lxde-desktop"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = true
+    vb.name = "Vulnerable web server"
+  end
+
+  # French keyboard
+  # config.vm.provision "shell", inline: "setxkbmap -layout fr"
+
+  config.berkshelf.enabled = true
+
+  config.vm.provision :chef_solo do |chef|
+    chef.add_recipe "apt"
+    chef.add_recipe "apache2"
+  end
+end
