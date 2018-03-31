@@ -1,18 +1,21 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "janihur/ubuntu-1604-lxde-desktop"
+  config.vm.box = "scotch/box"
 
   config.vm.provider "virtualbox" do |vb|
     vb.gui = true
     vb.name = "Vulnerable web server"
+    config.vm.network "private_network", ip: "10.0.0.20", :name => 'vboxnet0', :adapter => 2
   end
 
-  # French keyboard
-  # config.vm.provision "shell", inline: "setxkbmap -layout fr"
+  # TODO French keyboard
+  config.vm.provision "shell", inline: "loadkeys fr"
 
   config.berkshelf.enabled = true
 
   config.vm.provision :chef_solo do |chef|
     chef.add_recipe "apt"
-    chef.add_recipe "apache2"
   end
+
+  # Synced folders
+  config.vm.synced_folder "./app", "/var/www/public"
 end
