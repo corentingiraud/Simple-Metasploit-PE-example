@@ -49,6 +49,8 @@ Launch the VM by typing the following command:
 `vagrant up`
 It could take a long time depend on your internet connection (~1.6go)
 
+Once it is open, you could change VM resolution using: `Menu -> Preferences -> Monitor Settings`.
+
 #### Vulnerable Web Server VM
 
 Go to vulnerable web server folder: 
