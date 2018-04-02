@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
+<title>File upload</title>
+
 <body>
+    <img src="img/logo.png" style="float: left; width: 60px; margin-right: 20px;">
+    <h1>Simple upload to the web server</h1>
+    <h2>Basic upload</h2>
+    <form action="basic-upload.php" method="post" enctype="multipart/form-data">
+        <fieldset style="padding: 20px;">
+            <legend>Please fill up the form:</legend>
+            Select file to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <br />
+            <input type="submit" value="Upload" name="submit">
+        </fieldset>
+    </form>
 
-<form action="upload.php" method="post" enctype="multipart/form-data">
-    Select image to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload Image" name="submit">
-</form>
-
+    <h2>Restricted upload</h2>
+    <form action="restricted-upload.php" method="post" enctype="multipart/form-data">
+        <fieldset style="padding: 20px;">
+            <legend>Please fill up the form:</legend>
+            Select image to upload (must be jpg jpeg png):
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <br />
+            <input type="submit" value="Upload Image" name="submit">
+        </fieldset>
+    </form>
+    <p style="float: rigth; margin-top: 20px; text-align: right;">
+        <cite>
+            Developed by H4413. For more information, please check <a href="https://github.com/kistora/TP-SERE">our github</a>.
+        </cite>
+    </p>
 </body>
+
 </html>

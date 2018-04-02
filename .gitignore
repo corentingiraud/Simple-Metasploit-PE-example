@@ -1,4 +1,8 @@
-### Vagrant ###
+## Attacker ##
+VMs/vulnerable-web-server/app/basic-uploads/*
+VMs/vulnerable-web-server/app/restricted-uploads/*
+
+## Vagrant ##
 .vagrant/
 .vagrant
 
