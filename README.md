@@ -43,20 +43,28 @@ You must configure host-only network with VirtualBox called `vboxnet0`. You can 
 
 #### Attacker VM
 
-Go to attacker folder: 
+Go to attacker folder:
+
 `cd VMs/attacker`
+
 Launch the VM by typing the following command:
+
 `vagrant up`
+
 It could take a long time depend on your internet connection (~1.6go)
 
 Once it is open, you could change VM resolution using: `Menu -> Preferences -> Monitor Settings`.
 
 #### Vulnerable Web Server VM
 
-Go to vulnerable web server folder: 
+Go to vulnerable web server folder:
+
 `cd VMs/vulnerable-web-server`
+
 Launch the VM by typing the following command:
+
 `vagrant up`
+
 It could take a long time depend on your internet connection (~1go)
 
 ### Check the google slide and have fun
@@ -66,5 +74,7 @@ Have fun during our [great presentation reading](https://docs.google.com/present
 ## References
 
 https://null-byte.wonderhowto.com/how-to/upload-shell-web-server-and-get-root-rfi-part-1-0162818/
+
 https://null-byte.wonderhowto.com/how-to/upload-shell-web-server-and-get-root-rfi-part-2-0162854/
+
 http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html#cententtype-varification-bypass
