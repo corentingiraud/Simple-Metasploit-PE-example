@@ -53,7 +53,13 @@ Launch the VM by typing the following command:
 
 It could take a long time depend on your internet connection (~1.6go)
 
+Credentials (/!\ qwerty keyboard)
+
+- Username: `vargant`
+- Password: `vagrant`
+
 Once it is open, you could change VM resolution using: `Menu -> Preferences -> Monitor Settings`.
+Also, you could change keyboard to french by running the following command: `setxkbmap fr`
 
 #### Vulnerable Web Server VM
 
@@ -67,9 +73,20 @@ Launch the VM by typing the following command:
 
 It could take a long time depend on your internet connection (~1go)
 
-### Check the google slide and have fun
+Credentials (/!\ qwerty keyboard)
 
-Have fun during our [great presentation reading](https://docs.google.com/presentation/d/1Pj7vlkYo4XZdgI_VLuQKBqFX3w56eWvO7N-lTY_CPpA/edit?usp=sharing).
+- Username: `vargant`
+- Password: `vagrant`
+
+Once it is open, you could switch to french keyboard by running the following command: `sudo loadkeys fr` 
+
+### Check the google slide and begin the attack
+
+You can find a [detailled tutorial](https://docs.google.com/presentation/d/1Pj7vlkYo4XZdgI_VLuQKBqFX3w56eWvO7N-lTY_CPpA/edit?usp=sharing) writtent by our team. It is hosted by google slide.
+
+## Contributing
+
+Do not hesitate to open an issue if something went wrong !
 
 ## References
 
