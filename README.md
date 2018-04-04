@@ -95,3 +95,7 @@ https://null-byte.wonderhowto.com/how-to/upload-shell-web-server-and-get-root-rf
 https://null-byte.wonderhowto.com/how-to/upload-shell-web-server-and-get-root-rfi-part-2-0162854/
 
 http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html#cententtype-varification-bypass
+
+Exploit code for privilege escalation:
+
+https://github.com/iBearcat/CVE-2017-16995
