@@ -25,9 +25,9 @@ __/!\ For education purpose only__
 
 You need to install the following software:
 
-- [Vagrant](https://docs.docker.com/install/)
+- [Vagrant](https://www.vagrantup.com/downloads.html)
 - [Chef Development Kit](https://downloads.chef.io/chefdk)
-- [Berkshelf](https://github.com/berkshelf/berkshelf)
+- [Berkshelf vagrant plugin](https://github.com/berkshelf/vagrant-berkshelf)
 - [VirtualBox](https://www.virtualbox.org/)
 - [Git](https://git-scm.com/)
 
@@ -37,7 +37,7 @@ You have to clone our repo using this following command:
 
 `git clone https://github.com/kistora/TP-SERE.git`
 
-You must configure host-only network with VirtualBox called `vboxnet0`. You can find more information [here](https://blogs.oracle.com/scoter/networking-in-virtualbox-v2).
+You must create a host-only network with VirtualBox called `vboxnet0`. You can find more information [here](https://blogs.oracle.com/scoter/networking-in-virtualbox-v2).
 
 ### Launch the virtual machine through vagrant
 
@@ -55,7 +55,7 @@ It could take a long time depend on your internet connection (~1.6go)
 
 Credentials (/!\ qwerty keyboard)
 
-- Username: `vargant`
+- Username: `vagrant`
 - Password: `vagrant`
 
 Once it is open, you could change VM resolution using: `Menu -> Preferences -> Monitor Settings`.
@@ -75,7 +75,7 @@ It could take a long time depend on your internet connection (~1go)
 
 Credentials (/!\ qwerty keyboard)
 
-- Username: `vargant`
+- Username: `vagrant`
 - Password: `vagrant`
 
 Once it is open, you could switch to french keyboard by running the following command: `sudo loadkeys fr` 
@@ -97,5 +97,6 @@ https://null-byte.wonderhowto.com/how-to/upload-shell-web-server-and-get-root-rf
 http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html#cententtype-varification-bypass
 
 Exploit code for privilege escalation:
+_Note that if the vagrant box [scotch/box](https://box.scotch.io/) update its linux kernel, the following exploit won't work anymore. The current linux kernel version is `4.4.0-75` and it is vulnerable_
 
 https://github.com/iBearcat/CVE-2017-16995
