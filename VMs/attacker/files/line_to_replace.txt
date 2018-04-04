@@ -1,0 +1,1 @@
+line 235: write "python trojan.py" instead of "/bin/sh" as parameter for the system command.
