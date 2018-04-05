@@ -25,9 +25,9 @@ __/!\ For education purpose only__
 
 You need to install the following software:
 
-- [Vagrant](https://docs.docker.com/install/)
+- [Vagrant](https://www.vagrantup.com/downloads.html)
 - [Chef Development Kit](https://downloads.chef.io/chefdk)
-- [Berkshelf](https://github.com/berkshelf/berkshelf)
+- [Berkshelf vagrant plugin](https://github.com/berkshelf/vagrant-berkshelf)
 - [VirtualBox](https://www.virtualbox.org/)
 - [Git](https://git-scm.com/)
 
@@ -78,7 +78,7 @@ Credentials (/!\ qwerty keyboard)
 - Username: `vargant`
 - Password: `vagrant`
 
-Once it is open, you could switch to french keyboard by running the following command: `sudo loadkeys fr` 
+Once it is open, you could switch to french keyboard by running the following command: `sudo loadkeys fr`
 
 ### Check the google slide and begin the attack
 
@@ -97,5 +97,6 @@ https://null-byte.wonderhowto.com/how-to/upload-shell-web-server-and-get-root-rf
 http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html#cententtype-varification-bypass
 
 Exploit code for privilege escalation:
+_Note that if the vagrant box [scotch/box](https://box.scotch.io/) update its linux kernel, the following exploit won't work anymore. The current linux kernel version is `4.4.0-75` and it is vulnerable_
 
 https://github.com/iBearcat/CVE-2017-16995
