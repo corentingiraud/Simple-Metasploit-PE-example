@@ -84,7 +84,7 @@ Once it is open, you could switch to french keyboard by running the following co
 
 ### Check the google slide and begin the attack
 
-You can find a [detailled tutorial](https://docs.google.com/presentation/d/1Pj7vlkYo4XZdgI_VLuQKBqFX3w56eWvO7N-lTY_CPpA/edit?usp=sharing) writtent by our team. It is hosted by google slide.
+You can find a detailled tutorial writtent by our team in `/docs`.
 
 ## Contributing
 
