@@ -1,4 +1,4 @@
-# TP - Sécurité Réseau - 4IF
+# Network Security TP
 
 ## Contributors
 
@@ -37,7 +37,7 @@ You have to clone our repo using this following command:
 
 `git clone https://github.com/kistora/TP-SERE.git`
 
-You must configure host-only network with VirtualBox called `vboxnet0`. You can find more information [here](https://blogs.oracle.com/scoter/networking-in-virtualbox-v2).
+You must create a host-only network with VirtualBox called `vboxnet0`. You can find more information [here](https://blogs.oracle.com/scoter/networking-in-virtualbox-v2).
 
 ### Launch the virtual machine through vagrant
 
@@ -57,7 +57,7 @@ It could take a long time depend on your internet connection
 
 Credentials (/!\ qwerty keyboard)
 
-- Username: `vargant`
+- Username: `vagrant`
 - Password: `vagrant`
 
 Once it is open, you could change VM resolution using: `Menu -> Preferences -> Monitor Settings`.
@@ -77,7 +77,7 @@ It could take a long time depend on your internet connection
 
 Credentials (/!\ qwerty keyboard)
 
-- Username: `vargant`
+- Username: `vagrant`
 - Password: `vagrant`
 
 Once it is open, you could switch to french keyboard by running the following command: `sudo loadkeys fr`
