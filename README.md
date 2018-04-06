@@ -41,6 +41,8 @@ You must configure host-only network with VirtualBox called `vboxnet0`. You can 
 
 ### Launch the virtual machine through vagrant
 
+Warning, the following installation will take a lot of disk space __(~ 15 go)__.
+
 #### Attacker VM
 
 Go to attacker folder:
@@ -51,7 +53,7 @@ Launch the VM by typing the following command:
 
 `vagrant up`
 
-It could take a long time depend on your internet connection (~1.6go)
+It could take a long time depend on your internet connection
 
 Credentials (/!\ qwerty keyboard)
 
@@ -71,7 +73,7 @@ Launch the VM by typing the following command:
 
 `vagrant up`
 
-It could take a long time depend on your internet connection (~1go)
+It could take a long time depend on your internet connection
 
 Credentials (/!\ qwerty keyboard)
 
